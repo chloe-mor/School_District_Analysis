@@ -52,7 +52,7 @@ When it comparing Thomas HS to the other schools in the city, the change in data
 
 ![math_clean](https://user-images.githubusercontent.com/79174885/111884482-4fb18380-8998-11eb-8726-b22c9b652855.png)![reading_clean](https://user-images.githubusercontent.com/79174885/111884489-53dda100-8998-11eb-890c-c8b8a1a32270.png)
 
-The average math and reading scores by grade for each school were not impacted after changing the ninth grade data for students at Thomas High School. This is because the values for all other grades at all other schools were not altered in the "cleaning up" process.
+The average math and reading scores by grade for each school only changed for ninth graders at Thomas High School. No other averages were impacted by the clean data.
 
 ### Scores by School Spending
 **Original**
@@ -88,5 +88,5 @@ The average scores by school size did not change after cleaning up the data.
 The average scores by school type did not change after cleaning up the data.
 
 ## Summary
-The board might be interested to know about the 4 major changes we did find in the cleaned up school district analysis. 
+In summary, eliminating the dishonest data for ninth graders at Thomas High School had little to no impact on the overall school analysis.
 
