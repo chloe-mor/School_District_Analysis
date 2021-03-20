@@ -12,12 +12,12 @@ The comparison between the original analysis (containing dishonest data) and the
 
  ### District Summary
 **Original**
-![district_summary_original](https://user-images.githubusercontent.com/79174885/111879845-87133680-897e-11eb-8774-3d1905beb148.png)
+![district_summary_original](https://user-images.githubusercontent.com/79174885/111883834-16771480-8994-11eb-9162-b3c2fa516774.png)
 
 **Clean**
-![district_summary_clean](https://user-images.githubusercontent.com/79174885/111879847-8da1ae00-897e-11eb-980a-3297b03898af.png)
+![district_summary_clean](https://user-images.githubusercontent.com/79174885/111883880-5a6a1980-8994-11eb-80cc-e9a76dd71f4e.png)
 
-Replacing the scores barely had any effect on the overall district summary. The only difference is a 0.1 decrease in the district's average math score.
+Replacing the scores hardly had an effect on the overall district summary.
 
 ### School Summary
 **Original**
@@ -35,12 +35,30 @@ When it comparing Thomas HS to the other schools in the city, the change in data
 The average math and reading scores by grade for each school were not impacted after changing the ninth grade data for students at Thomas High School. This is because the values for all other grades at all other schools were not altered in the "cleaning up" process.
 
 ### Scores by School Spending
+**Original**
+![scores_by_spending_original](https://user-images.githubusercontent.com/79174885/111884057-715d3b80-8995-11eb-82bf-dbb28c4325c9.png)
+
+**Clean**
+![scores_by_spending_clean](https://user-images.githubusercontent.com/79174885/111884060-76ba8600-8995-11eb-911f-3837087b950f.png)
+
 The average scores by school spending did not change after cleaning up the data.
 
 ### Scores by School Size
+**Original**
+![scores_by_size_original](https://user-images.githubusercontent.com/79174885/111884165-298ae400-8996-11eb-99c8-76ff3c95f9ee.png)
+
+**Clean**
+![scores_by_size_clean](https://user-images.githubusercontent.com/79174885/111884168-2d1e6b00-8996-11eb-81ca-8d595ed70059.png)
+
 The average scores by school size did not change after cleaning up the data.
 
 ### Scores by School Type
+**Original**
+![scores_by_school_type_original](https://user-images.githubusercontent.com/79174885/111884173-3f000e00-8996-11eb-946a-4b511b0274bd.png)
+
+**Clean**
+![scores_by_school_type_clean](https://user-images.githubusercontent.com/79174885/111884181-46271c00-8996-11eb-8a94-dcf8ffe0fca8.png)
+
 The average scores by school type did not change after cleaning up the data.
 
 ## Summary
