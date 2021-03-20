@@ -48,7 +48,7 @@ The average scores by school spending did not change after cleaning up the data.
 ![scores_by_size_original](https://user-images.githubusercontent.com/79174885/111884165-298ae400-8996-11eb-99c8-76ff3c95f9ee.png)
 
 **Clean**
-![scores_by_size_clean](https://user-images.githubusercontent.com/79174885/111884168-2d1e6b00-8996-11eb-81ca-8d595ed70059.png)
+
 
 The average scores by school size did not change after cleaning up the data.
 
