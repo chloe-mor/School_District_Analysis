@@ -1,18 +1,51 @@
 # School_District_Analysis
 
 ## Overview and Purpose
-There is evidence of acadmeic dishonesty in our data set. We need to change those scores to "NaN" and re run our analysis. How do the changes affect the overall analysis?
+There is evidence of acadmeic dishonesty in our data set. The board requested we pull the suspicious data and re-run our analysis. Once we have a "cleaned up" analysis, we can present our findings to the board. We want to be prepared for any questions we may be asked, so in additional to re-running the analysis, we are going to compare the original results with the cleaned up results. This will tell us the extent to which the dishonest data impacted the overall analysis.
 
 ## Results
-how each of the 7 school district metrics were affectedc by the changes in the data
-- How is the **District Summary** affected?
-- How is the **School Summary** affected?
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-- How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
+After replacing the ninth grade math and reading scores at Thomas High School with null or `NaN` we were able to re-run the analysis for the schools in the PyCity district. 
+
+> *As a note, we had to replace the scores with `NaN` in order to perform the mathematical operations in our analysis. Had we used "None" or "0" in those entries, our averages would have come up in an error (in the case of "None") or they would have been skewed tremendously (in the case of "0"). The value `NaN` is read as a numeric value and a float integer.*
+ 
+The comparison between the original analysis (containing dishonest data) and the cleaned up analysis (dishonest data replaced with `NaN`) is below.
+
+ ### District Summary
+**Original**
+![district_summary_original](https://user-images.githubusercontent.com/79174885/111879845-87133680-897e-11eb-8774-3d1905beb148.png)
+
+**Clean**
+![district_summary_clean](https://user-images.githubusercontent.com/79174885/111879847-8da1ae00-897e-11eb-980a-3297b03898af.png)
+
+Replacing the scores barely had any effect on the overall district summary. The only difference is a 0.1 decrease in the district's average math score.
+
+### School Summary
+**Original**
+![per_school_summary_original](https://user-images.githubusercontent.com/79174885/111879855-95f9e900-897e-11eb-9c87-46d1b71deafb.png)
+
+**Clean**
+![per_school_summary_clean](https://user-images.githubusercontent.com/79174885/111879860-98f4d980-897e-11eb-8b4e-709c7fe48006.png)
+
+The per school summary data only changed for Thomas High School's data. No other school was impacted by replacing the scores. 
+
+### Thomas High School vs. Others
+When it comes to how Thomas HS compares to the other schools in the city, the change in data has no impact on the school's ranking. After removing the ninth graders scores, Thomas HS is still ranked second in PyCity for percentage of students passing both math and reading.
+
+### Scores by Grade
+The average math and reading scores by grade for each school were not impacted after changing the ninth grade data for students at Thomas High School. This is because the values for all other grades at all other schools were not altered in the "cleaning up" process.
+
+### Scores by School Spending
+The average scores by school spending did not change after cleaning up the data.
+
+### Scores by School Size
+The average scores by school size did not change after cleaning up the data.
+
+### Scores by School Type
+The average scores by school type did not change after cleaning up the data.
 
 ## Summary
-4 major changes in the updated school district analysis after reading + math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+The board might be interested to know about the 4 major changes we did find in the cleaned up school district analysis. 
+1. balh
+2. blah
+3. blah
+4. blah
