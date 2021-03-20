@@ -36,15 +36,18 @@ The average math and reading scores by grade for each school were not impacted a
 
 ### Scores by School Spending
 **Original**
+
 ![scores_by_spending_original](https://user-images.githubusercontent.com/79174885/111884057-715d3b80-8995-11eb-82bf-dbb28c4325c9.png)
 
 **Clean**
+
 ![scores_by_spending_clean](https://user-images.githubusercontent.com/79174885/111884060-76ba8600-8995-11eb-911f-3837087b950f.png)
 
 The average scores by school spending did not change after cleaning up the data.
 
 ### Scores by School Size
 **Original**
+
 ![scores_by_size_original](https://user-images.githubusercontent.com/79174885/111884165-298ae400-8996-11eb-99c8-76ff3c95f9ee.png)
 
 **Clean**
@@ -54,9 +57,11 @@ The average scores by school size did not change after cleaning up the data.
 
 ### Scores by School Type
 **Original**
+
 ![scores_by_school_type_original](https://user-images.githubusercontent.com/79174885/111884173-3f000e00-8996-11eb-946a-4b511b0274bd.png)
 
 **Clean**
+
 ![scores_by_school_type_clean](https://user-images.githubusercontent.com/79174885/111884181-46271c00-8996-11eb-8a94-dcf8ffe0fca8.png)
 
 The average scores by school type did not change after cleaning up the data.
