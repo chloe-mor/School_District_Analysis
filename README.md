@@ -12,26 +12,46 @@ The comparison between the original analysis (containing dishonest data) and the
 
  ### District Summary
 **Original**
+
 ![district_summary_original](https://user-images.githubusercontent.com/79174885/111883834-16771480-8994-11eb-9162-b3c2fa516774.png)
 
 **Clean**
+
 ![district_summary_clean](https://user-images.githubusercontent.com/79174885/111883880-5a6a1980-8994-11eb-80cc-e9a76dd71f4e.png)
 
 Replacing the scores hardly had an effect on the overall district summary.
 
 ### School Summary
 **Original**
+
 ![per_school_summary_original](https://user-images.githubusercontent.com/79174885/111879855-95f9e900-897e-11eb-9c87-46d1b71deafb.png)
 
 **Clean**
+
 ![per_school_summary_clean](https://user-images.githubusercontent.com/79174885/111879860-98f4d980-897e-11eb-8b4e-709c7fe48006.png)
 
 The per school summary data only changed for Thomas High School's data. No other school was impacted by replacing the scores. 
 
 ### Thomas High School vs. Others
+**Original**
+
+![top_original](https://user-images.githubusercontent.com/79174885/111884457-2264d580-8998-11eb-83b2-85267f20fcc8.png)
+
+**Clean**
+
+![top_clean](https://user-images.githubusercontent.com/79174885/111884459-298be380-8998-11eb-97e1-8c3fb9c73393.png)
+
 When it comparing Thomas HS to the other schools in the city, the change in data has no impact on the school's ranking. After removing the ninth graders scores, Thomas HS is still ranked second in PyCity for percentage of students passing both math and reading.
 
 ### Scores by Grade
+**Original**
+
+![math_original](https://user-images.githubusercontent.com/79174885/111884475-432d2b00-8998-11eb-9769-949965e66357.png)![reading_original](https://user-images.githubusercontent.com/79174885/111884480-488a7580-8998-11eb-8ec6-5ea4270154d0.png)
+
+**Clean**
+
+![math_clean](https://user-images.githubusercontent.com/79174885/111884482-4fb18380-8998-11eb-8726-b22c9b652855.png)![reading_clean](https://user-images.githubusercontent.com/79174885/111884489-53dda100-8998-11eb-890c-c8b8a1a32270.png)
+
 The average math and reading scores by grade for each school were not impacted after changing the ninth grade data for students at Thomas High School. This is because the values for all other grades at all other schools were not altered in the "cleaning up" process.
 
 ### Scores by School Spending
