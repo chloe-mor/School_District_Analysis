@@ -29,7 +29,7 @@ Replacing the scores barely had any effect on the overall district summary. The 
 The per school summary data only changed for Thomas High School's data. No other school was impacted by replacing the scores. 
 
 ### Thomas High School vs. Others
-When it comes to how Thomas HS compares to the other schools in the city, the change in data has no impact on the school's ranking. After removing the ninth graders scores, Thomas HS is still ranked second in PyCity for percentage of students passing both math and reading.
+When it comparing Thomas HS to the other schools in the city, the change in data has no impact on the school's ranking. After removing the ninth graders scores, Thomas HS is still ranked second in PyCity for percentage of students passing both math and reading.
 
 ### Scores by Grade
 The average math and reading scores by grade for each school were not impacted after changing the ninth grade data for students at Thomas High School. This is because the values for all other grades at all other schools were not altered in the "cleaning up" process.
@@ -45,7 +45,4 @@ The average scores by school type did not change after cleaning up the data.
 
 ## Summary
 The board might be interested to know about the 4 major changes we did find in the cleaned up school district analysis. 
-1. balh
-2. blah
-3. blah
-4. blah
+
