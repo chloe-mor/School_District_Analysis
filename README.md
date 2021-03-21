@@ -88,5 +88,16 @@ The average scores by school size did not change after cleaning up the data.
 The average scores by school type did not change after cleaning up the data.
 
 ## Summary
-In summary, eliminating the dishonest data for ninth graders at Thomas High School had little to no impact on the overall school analysis.
+Overall, there weren't major differences between the original analysis and the cleaned up version. There were a few changes when we compared original analysis --> clean analysis for Thomas High School. The small differences are listed below.
+
+**Average Math Score**: 83.418 --> 83.351
+
+**Average Reading Score**: 83.849 --> 83.896
+
+**% Passing Math**: 93.272 --> 93.186
+
+**% Passing Reading**: 97.309 --> 97.019
+
+**% Overall Passing**: 90.948 --> 90.630
+
 
